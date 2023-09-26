@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FBFBFB;
+    font-family: 'Poppins', sans-serif;
+}
+.section{
+    width: 80%;
+    margin: 20px 30px;
+    color: #535961;
+}
+.section .account .color-profile{
+    width: 50px;
+    height: 50px;
+    background: #EF1B67;
+    border-radius: 50%;
+}
+.section .account h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.profil-pic {
+    position: relative;
+    margin-right: 10px;
+}
+.profil-pic span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.profil-pic .drop-water{
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: white;
+    color: gray;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-size: 12px;
+    box-shadow: 0 0 5px;
+}
+/* navs */
+.nav .nav-item a{
+    text-transform: uppercase;
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav-underline .nav-link.active, .nav-underline .show>.nav-link{
+    border-bottom-color: #649B99;
+}
+.content ul{
+    justify-content: space-between;
+}
+.content .names{
+    text-transform: uppercase;
+    color: #8A8D91;
+    font-weight: 600;
+    font-size: 14px;
+}
+.content .text-content input{
+    width: 100%;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+.color-palet{
+    display: flex;
+    justify-content: space-between;
+}
+.color h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+.color-palet .color-buttons{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+button{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 35px;
+    border: 2px solid #CD1E45;
+    border-radius: 4px;
+    color: #CD1E45;
+    background: transparent;
+}

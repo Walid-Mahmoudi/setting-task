@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Setting</title>
+</head>
+
+<body>
+    <div class="section">
+        <div class="head d-flex align-items-center gap-3">
+            <i class="fa-solid fa-arrow-left-long"></i>
+            <h4>My Setting</h4>
+        </div>
+        <div class="account d-flex align-items-center mt-3">
+            <div class="profil-pic">
+                <span>S</span>
+                <div class="drop-water"><i class="fa-solid fa-droplet"></i></div>
+                <div id="color-profile" class="color-profile"></div>
+            </div>
+            <h4>Account name</h4>
+        </div>
+        <!-- navs -->
+        <div class="content">
+            <ul class="nav nav-underline mt-3">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="pill" data-bs-target="#myaccount" aria-current="page"
+                        href="#">My account</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" data-bs-target="#Preferance" href="#">Preferance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" data-bs-target="#notifications" href="#">notifications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" data-bs-target="#security" href="#">security</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" data-bs-target="#language" href="#">language&Region</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" data-bs-target="#myworkplace" href="#">myworkplace</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active show fade" id="myaccount">
+                    <div class="row mt-3 gy-3 tab">
+                        <div class="col-md-6">
+                            <div class="text-content">
+                                <div class="names"><label for="">fullname</label></div>
+                                <input type="text" class="form-control" placeholder="Account name" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-content">
+                                <div class="names"><label for="">Email</label></div>
+                                <input type="email" class="form-control" placeholder="Enter Email" />
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-4">
+                            <div class="text-content">
+                                <div class="names"><label for="">password</label></div>
+                                <input type="password" class="form-control" placeholder="Enter password" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="color mt-5">
+                        <h4>Your Color theme</h4>
+                        <div class="color-palet mt-4">
+                            <span class="color-buttons" data-color="#EC1D67" style="background: #EC1D67;"></span>
+                            <span class="color-buttons" data-color="#FF0A36" style="background: #FF0A36;"></span>
+                            <span class="color-buttons" data-color="#FBAA33" style="background: #FBAA33;"></span>
+                            <span class="color-buttons" data-color="#DD9831" style="background: #DD9831;"></span>
+                            <span class="color-buttons" data-color="#C3AFFF" style="background: #C3AFFF;"></span>
+                            <span class="color-buttons" data-color="#FF9AE4" style="background: #FF9AE4;"></span>
+                            <span class="color-buttons" data-color="#ED1C67" style="background: #ED1C67;"></span>
+                            <span class="color-buttons" data-color="#B1CCFA" style="background: #B1CCFA;"></span>
+                            <span class="color-buttons" data-color="#3A4755" style="background: #3A4755;"></span>
+                            <span class="color-buttons" data-color="#B5B7C2" style="background: #B5B7C2;"></span>
+                            <span class="color-buttons" data-color="#0C988F" style="background: #0C988F;"></span>
+                        </div>
+                    </div>
+                    <button type="button" class="  mt-5">Delete Account</button>
+                </div>
+                <div class="tab-pane fade" id="Preferance">
+                    Preferance
+                </div>
+                <div class="tab-pane fade" id="notifications">
+                    notifications
+                </div>
+                <div class="tab-pane fade" id="security">
+                    security
+                </div>
+                <div class="tab-pane fade" id="language">
+                    language
+                </div>
+                <div class="tab-pane fade" id="myworkplace">
+                    myworkplace
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
